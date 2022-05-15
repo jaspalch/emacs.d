@@ -1,0 +1,10 @@
+auto-save-list
+%backup%~
+custom.el
+eln-cache
+elpa
+projectile-bookmarks.eld
+recentf
+tramp
+transient
+url
