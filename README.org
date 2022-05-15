@@ -1,0 +1,34 @@
+#+TITLE:My Emacs config
+This is my straightforward, ever-evolving Emacs config.
+
+*** Highlights:
+- Leader key shorcuts managed by [[https://github.com/noctuid/general.el][general]] and previewed by [[https://github.com/justbur/emacs-which-key][which-key]]
+- [[https://github.com/emacs-evil/evil][Evil]] keybindings
+- Simple package management and configuration with [[https://github.com/jwiegley/use-package][use-package]]
+- Completion/selection narrowing by [[https://github.com/emacs-helm/helm][helm]]
+- Nice modeline ([[https://github.com/seagle0128/doom-modeline][doom-modeline)]]
+- LSP support for Go (works remotely too with [[https://www.gnu.org/software/tramp/][TRAMP]]!)
+- [[https://magit.vc/][Magit]] git interface
+- Project management with [[https://github.com/bbatsov/projectile][Projectile]]
+- Organize workspaces with [[https://github.com/nex3/perspective-el][Perspective]]
+- Integrated terminal ([[https://github.com/akermu/emacs-libvterm][vterm]])
+
+*** Screenshots:
+#+caption: Editing init.el
+#+ATTR_HTML: :style margin-left: auto; margin-right: auto;
+[[file:docs/images/init.el.png]]
+
+#+caption: Find file
+#+ATTR_HTML: :style margin-left: auto; margin-right: auto;
+[[file:docs/images/helm-projectile-find-file.png]]
+
+#+caption: Magit
+#+ATTR_HTML: :style margin-left: auto; margin-right: auto;
+[[file:docs/images/magit.png]]
+
+#+caption: vterm
+#+ATTR_HTML: :style margin-left: auto; margin-right: auto;
+[[file:docs/images/vterm.png]]
+
+
+
