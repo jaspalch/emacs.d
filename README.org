@@ -7,7 +7,7 @@ This is my straightforward, ever-evolving Emacs config.
 - Simple package management and configuration with [[https://github.com/jwiegley/use-package][use-package]]
 - Completion/selection narrowing by [[https://github.com/emacs-helm/helm][helm]]
 - Nice modeline ([[https://github.com/seagle0128/doom-modeline][doom-modeline)]]
-- LSP support for Go (works remotely too with [[https://www.gnu.org/software/tramp/][TRAMP]]!)
+- LSP support for Go, Python
 - [[https://magit.vc/][Magit]] git interface
 - Project management with [[https://github.com/bbatsov/projectile][Projectile]]
 - Organize workspaces with [[https://github.com/nex3/perspective-el][Perspective]]
