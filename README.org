@@ -14,19 +14,19 @@ This is my straightforward, ever-evolving Emacs config.
 - Integrated terminal ([[https://github.com/akermu/emacs-libvterm][vterm]])
 
 *** Screenshots:
-#+caption: Editing init.el
+**** Editing init.el
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
 [[file:docs/images/init.el.png]]
 
-#+caption: Find file
+**** Find file
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
 [[file:docs/images/helm-projectile-find-file.png]]
 
-#+caption: Magit
+**** Magit
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
 [[file:docs/images/magit.png]]
 
-#+caption: vterm
+**** vterm
 #+ATTR_HTML: :style margin-left: auto; margin-right: auto;
 [[file:docs/images/vterm.png]]
 
