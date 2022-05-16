@@ -9,3 +9,6 @@ tramp
 transient
 url
 .persp-state
+.cache
+.lsp*
+
