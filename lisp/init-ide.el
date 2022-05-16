@@ -51,6 +51,11 @@
 
 (use-package lsp-ui)
 
+(use-package lsp-pyright
+  :ensure t
+  :hook (python-mode . (lambda ()
+                          (require 'lsp-pyright)
+                          (lsp-deferred))))
 (provide 'init-ide)
 
 ;;; init-ide.el ends here
