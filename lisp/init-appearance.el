@@ -21,7 +21,7 @@
 (use-package kaolin-themes)
 
 ;; Set theme
-(load-theme 'kaolin-bubblegum t)
+(load-theme 'spacemacs-dark t)
 
 ;; Misc theming
 
