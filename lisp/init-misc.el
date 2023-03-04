@@ -32,6 +32,9 @@
 ;; Set dir for backups
 (setq backup-directory-alist `(("." . "~/.saves")))
 
+;; Enable dired-alternate-file
+(put 'dired-find-alternate-file 'disabled nil)
+
 (provide 'init-misc)
 
 ;;; init-misc.el ends here
