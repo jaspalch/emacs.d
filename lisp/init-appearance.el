@@ -8,6 +8,10 @@
 (require 'init-ui)
 
 ;; Themes
+
+:; Kind of risky, but using themes from trusted sources
+(setq custom-safe-themes t)
+
 (use-package spacemacs-theme
   :ensure t
   :defer t)
@@ -18,10 +22,8 @@
   (setq doom-themes-enable-bold t
         doom-themes-enable-italic t))
 
-(use-package kaolin-themes)
-
 ;; Set theme
-(load-theme 'spacemacs-dark t)
+(load-theme 'doom-outrun-electric)
 
 ;; Misc theming
 
