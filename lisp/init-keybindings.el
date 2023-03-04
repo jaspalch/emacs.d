@@ -20,7 +20,8 @@
 
 	;; Files
 	"f" '(:ignore t :which-key "Files")
-	"f o" '(projectile-find-file :which-key "Find files")
+	"f f" '(helm-find-files :which-key "Find files")
+	"f p" '(projectile-find-file :which-key "Find files in project")
 	"f i" '(my/open-init-file :which-key "Open init.el")
 	"f D" '(j/delete-file-and-buffer :which-key "Delete file and buffer")
 	"f S" '(write-file :which-key "write-file")
@@ -46,6 +47,7 @@
 
 	;; Other
 	"d" '(dired :which-key "dired")
+	"D" '((lambda () (interactive) (dired default-directory)) :which-key "dired")
 	"p" '(projectile-command-map :which-key "projectile")
 	"t" '(neotree-toggle :which-key "Toggle neotree")
 	"g" '(magit :which-key "Open magit")
