@@ -69,6 +69,9 @@
   (setq dashboard-set-file-icons t)
   (dashboard-setup-startup-hook))
 
+;; Scroll settings
+(setq scroll-margin 3)
+
 ;; Misc UI settings
 (setq inhibit-splash-screen t
       inhibit-startup-message t
