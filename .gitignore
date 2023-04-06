@@ -11,4 +11,6 @@ url
 .persp-state
 .cache
 .lsp*
-
+eshell/
+games/
+projectile.cache
