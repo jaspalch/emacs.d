@@ -22,8 +22,10 @@
   (setq doom-themes-enable-bold t
         doom-themes-enable-italic t))
 
+(use-package ef-themes)
+
 ;; Set theme
-(load-theme 'doom-outrun-electric)
+(load-theme 'ef-night)
 
 ;; Misc theming
 
